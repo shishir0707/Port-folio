@@ -1,0 +1,19 @@
+@media screen and (max-width: 750px) {
+    #header_wrapper .main_nav .nav_list ul a {
+        flex-direction: column;
+        display: flex;
+        background-color: brown;
+        /* width: 100%; */
+        height: auto;
+    }
+    #header_wrapper .main_nav .nav_list ul button {
+        display: block;
+    }
+    .header_wrapper .img_me div img {
+        width: 100%;
+    }
+    .header_bottom .top_info h3 {
+        height: auto;
+        margin-top: 70px;
+    }
+}

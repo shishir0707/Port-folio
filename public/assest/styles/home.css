@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* font-family: 'Kdam Thmor Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,800;1,900&display=swap');
+body {
+    background-color: #24273e;
+}
+a,
+span,
+li,
+ul,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+#header_wrapper .main_nav {
+    background-color: rgb(43, 43, 87);
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid green;
+    margin-bottom: 80px;
+    margin-top: 0;
+
+}
+#header_wrapper .main_nav .parents {
+    align-items: center;
+}
+#header_wrapper .main_nav .logo {
+    font-size: 35px;
+    font-weight: 500;
+    color:#fff
+}
+#header_wrapper .main_nav .nav_list {
+    padding: 10px;
+}
+#header_wrapper .main_nav .nav_list ul a {
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    border: 15px;
+}
+#header_wrapper .main_nav .nav_list ul button {
+    border: 1.6px solid red;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+.header_bottom .top_info h3 {
+    font-size: 1.75rem;
+    color: rgb(212, 50, 50);
+}
+.header_bottom .top_info h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.header_bottom .top_info span {
+    font-size: 16px;
+    margin: 20px 0 16px;
+}
+.header_bottom .bottom_info button {
+    border: 1.6px solid red;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 300;
+    margin: 20px;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.header_bottom .bottom_info button:first-child {
+    background-color: red;
+}
+.header_wrapper .header_bottom {
+    height: 400px;
+    margin-bottom: 100px;
+}
+.header_wrapper .img_me div img {
+    height: 200px;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 50px 100px 0 0;
+}
+#projects {
+    margin: 20px 0 20px 0;
+}
+#projects h2 {
+    font-size: 32px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+#projects h2>button {
+    border: 1.6px solid red;
+    padding: 9px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 5px;
+}
+#projects .main_section {
+    padding: 10px;
+}
+#projects .main_section {
+    margin-bottom: 30px;
+}
+#projects .main_section .height {
+    height: 430px;
+}
+#projects .main_section .section {
+    padding-right: 15px;
+
+    margin-top: 20px;
+}
+#projects .main_section .img_parent {
+    padding: 10px;
+}
+#projects .main_section .img_parent img {
+    height: 150px;
+    width: 100%;
+}
+#projects .main_section .same h3 {
+    font-size: 24px;
+    margin: 0 0 8px;
+    padding: 10px;
+}
+#projects .main_section .same p {
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 400;
+    color:#b3bad3;
+    margin-bottom: 20px;
+}
+#projects .main_section .bottom {
+    padding: 10px;
+    color: #fff;
+}
+#projects .div-2 button {
+    border: 1.6px solid rgb(47, 161, 121);
+    padding: 18px 28px;
+    font-size: 28px;
+    background-color: transparent;
+    color: rgb(47, 161, 121);
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center!important;
+    display: inline-block;
+    vertical-align: middle;
+}
+#projects .div-2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#blog h2 {
+    font-size: 32px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+#blog .main_section2 .section {
+    height: 430px;
+    padding: 10px;
+    margin-left: 20px;
+}
+#blog .main_section2 .section:first-child {
+    margin-left: 0;
+}
+#blog .main_section2 .section .img_all img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#blog .main_section2 .section .info h3 {
+    font-size: 30px;
+    margin: 25px;
+    font-weight: 500;
+}
+#blog .main_section2 .section .info button {
+    border: 1.6px solid rgb(47, 161, 121);
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(47, 161, 121);
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+#blog .main_section2 {
+    margin-bottom: 30px;
+}
+#about_me .main_section {
+    height: 650px;
+}
+#about_me h2 {
+    font-size: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#about_me .main_section .left {
+    padding: 20px;
+}
+#about_me .main_section .img {
+    text-align: center!important;
+    padding: 30px;
+}
+#about_me .main_section .img img {
+    height: 150px;
+    vertical-align: middle;
+    border-style: none;
+}
+#about_me .main_section h1 {
+    font-size: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+#about_me .main_section p {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+#about_me .main_section button {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color:#fff;
+    border: none;
+    border-radius: 6px;
+    margin: 0 20px;
+}
+#about_me .main_section .right {
+    padding: 20px;
+}
+#about_me .main_section .right h1 {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+    /* display: flex; */
+}
+#about_me .main_section .right span {
+    background-color: #4b5769;
+    margin-right: 6px;
+    border-radius: 3px;
+    padding: 3px 11px;
+    font-size: 15px;
+    height: 25px;
+    color: #fff;
+    /* margin-bottom: 10px; */
+}
+.section_11 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+.section_11 .card {
+    height: 200px;
+    background-color: #1f2235;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+}
+.section_11 .card:first-child {
+    margin-left: 0;
+}
+.section_11 .card img {
+    height: 100px;
+    text-align: center!important;
+    padding: 20px 60px;
+    flex-direction: column;
+}
+.section_11 .card h4 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+#contact {
+    margin-bottom: 40px;
+}
+#contact h2 {
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+#contact form {
+    padding: 30px 50px 50px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #133657;
+    width: 50%;
+    height: 450px;
+}
+#contact form h3 {
+    font-size: 40px;
+    padding: 10px;
+}
+.form_group {
+    margin-bottom: 1rem;
+}
+.form_control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #1c62a7;
+    border-radius: 0.25rem;
+    margin-bottom: 30px;
+    transition: 1px green;
+}
+.btn {
+    width: 100%;
+    background-color: #0da115;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.footer {
+    border-top: 1px solid green;
+    width: 100%;
+}
+.footer h1 {
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
